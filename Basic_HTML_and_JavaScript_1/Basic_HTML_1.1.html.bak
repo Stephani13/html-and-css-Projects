@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Source Attribute Assignment</title>
+	</head>
+	<body>
+	<script scr="Basic_JavaScript_1.js"></script>
+	</body>
+	
+</html>
