@@ -1,0 +1,12 @@
+
+p {
+	color: aqua;
+	background-color: darkblue;
+	font-size: medium;
+	text-align: center;
+	font-style: italics;
+}
+
+h1 {
+	text-shadow: 2px 2px red;
+}

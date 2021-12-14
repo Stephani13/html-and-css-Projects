@@ -1,0 +1,8 @@
+
+p {
+	color: aqua;
+	background-color: darkblue;
+	font-size: medium;
+	text-align: center;
+	font-style: italics;
+}

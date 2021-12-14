@@ -1,0 +1,19 @@
+<DOCTYPE HTML>
+<html lan="en">
+	<body>
+	<ol>
+		<li>Cats</li>
+		<li>Dogs</li>
+		<li>Rabbit</li>
+		<li>Squirrel</li>
+	</ol>
+	
+	
+	<ul>
+		<li>Pencil</li>
+		<li>Book</li>
+		<li>Jump</li>
+		<li>Learning</li>
+	</ul>
+	</body>
+</html>

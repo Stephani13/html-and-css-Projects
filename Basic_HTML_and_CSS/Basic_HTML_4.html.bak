@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	<body>
+	<style>
+	
+	.My_style {
+		background-color: black;
+		color: purple;
+		text-decoration: italics;
+		font-size: medium:
+	}
+
+	</style>
+	<h2 class = "My_style" > This h2 element is styled per class atribute font_1</h2>
+	<h3 class = "My_style" > This h3 elementis styled per class atribute font_2</h3>
+	<h4 class = "My_style" > Even though this is an h4 element, it is styled the same as the h2 element because we pointed to the class atribute font_1</h4>
+	</body>
+</html>
