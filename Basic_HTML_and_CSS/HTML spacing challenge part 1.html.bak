@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	<head>
+		<title> HTML_Spacing_Challenge_PartI</title>
+	</head>
+	<body>
+		<h1>Dogs or Cats</h1>
+		<section>
+			<h1>Dogs</h1>
+			<p><span style = "color:blue;font-weight:bold">  &nbsp; Dogs</span> are domestic animals that requires more attention thaat any other animals. 
+				They are playful and sometimes destroyers, so all owners must pay extra attention to them.<br>My boyfriend likes dogs a lot.</p>
+		</section>
+		
+		
+		<section>
+			<h1>Cats</h1>
+			<p><span style = "color:red;font-weight:bold">  &nbsp; Cats</span> are lazy domestic creatures that does not requires the same amount of attention that dogs does.
+				Some of them are caring and others are rude. But that does not change that they are extremely cute creatures.<br>My favorite animals are cats.</p>
+		</section>
+		
+	</body>
+</html>

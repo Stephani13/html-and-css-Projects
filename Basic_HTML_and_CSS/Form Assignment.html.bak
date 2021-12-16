@@ -1,0 +1,9 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	<form action="" method="get">
+		First Name: <input type="text" name="First_Name"><br>
+		Last Name: <input type="text" name="Last_Name"><br>
+		Email: <input type="email" value="Email"><br>
+		Password: <input type:"password" value= "Password"><br>
+	</form>
+</html>
