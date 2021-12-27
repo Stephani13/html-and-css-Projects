@@ -2,15 +2,16 @@
 <html lang = "en">
 	<head>
 		<title>The Space Station | Resort</title>
-		<link rel = "stylesheet" type="text/css" href="./css/photo_style.css"
+		<link rel = "stylesheet" type="text/css" href="./css/shared.css">
+		<link rel = "stylesheet" type = "text/css" href="./css/animation.css">
 	</head>
 	<body>
 	
 	
 		<!-- nav -->
-		<div>
-			<div>
-				<ul>
+		<div class = "wrap">
+			<div class = "menu-container">
+				<ul class = "menu">
 					<a href = "#home" id = "link" ><li>HOME</li></a>
 					<a href = "#gallery" id = "link" ><li>GALLERY</li></a>
 					<a href = "#contact" id = "link" ><li>RESERVATIONS</li></ul></a>
@@ -24,9 +25,9 @@
 		<!-- Home -->
 		
 		<div id = "home">
-			<div>
-				<div>
-					<span>The Space Station</span>
+			<div class = "container">
+				<div class = "text-center">
+					<span class = "head-main">The Space Station</span>
 				</div>
 			</div>
 		</div>
@@ -36,13 +37,11 @@
 		
 		
 		<!-- Gallery -->
-		<section>
-			<div id = "gallery"> 	
+		<section id = "gallery">
+			<div class = "container"> 	
 				<h1>Gallery</h1>
-				<div>
-				
-				
-				
+				<div class = "flex-container">
+											
 					<!-- Photo container 1 -->
 				
 					<div class = "photo-continer">
@@ -59,6 +58,7 @@
 					
 					
 					<!-- Photo container  2 -->
+
 					<div class = "photo-continer">
 						<div class = "photo">
 							<img src = ".\images\thumb\thumbnail_2.jpg" alt = "Image cannot load">
@@ -68,8 +68,7 @@
 							</div>
 						</div>
 					</div>
-				
-				
+								
 					<!-- End photo container 2 -->
 					
 					
@@ -183,29 +182,31 @@
 		
 		
 		<!--RSVP -->
-		<section>
+		<section id = "contact"> 
 		
-			<div id = "contact">
-				<div>
-					<h1> Reservations</h1>
-					<div>
+			<div class = "container">
+				<div class = "heading-padding">
+					<h1 class = "heading-padding"> Reservations</h1>
+
+					<div class = "reservation">
 						<h2><span>Your adventure is just around the moon</span>
-						</br>Reserve your flight today!!
+						<br/>Reserve your flight today!!
 						</h2>
 						
-						<p>
+						<p class = "rsvp-text">
 							Please provide us with your basic information.
 						</p>
-						<div>
+
+						<div class = "form-rsvp">
 							<form action = "" method = "post">
-								<input class="rsvp" type= "text" value="First Name">
-								<input class="rsvp" type= "text" value="Last Name">
-								<input class="rsvp" type= "text" value="Email Address">
-								<input class="rsvp" type= "text" value="Phone Number">
+								<input class="rsvp" type= "text" value="" placeholder="First Name">
+								<input class="rsvp" type= "text" value="" placeholder ="Last Name">
+								<input class="rsvp" type= "text" value="" placeholder="Email Address">
+								<input class="rsvp" type= "text" value="" placeholder="Phone Number">
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<div class = "submit">
 									<input type= "submit" value = "Submit">
 								</div>
 								
@@ -219,7 +220,7 @@
 		
 		
 		<!-- footer -->
-		<div>
+		<div id="footer">
 			www.thespacestation.space  &nbsp;|&nbsp; &copy; 2016
 		</div>
 		
