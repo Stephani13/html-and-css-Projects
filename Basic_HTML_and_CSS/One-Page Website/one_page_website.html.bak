@@ -2,26 +2,21 @@
 <html lang = "en">
 	<head>
 		
-		<title style="text-align:center"> Travel agency </title>
-	</head>
+		<title> Travel agency </title>
+		<link rel="stylesheet" type="text/css" href="./CSS/one_page_website.css">
+		<link rel="stylesheet" type="text/css" href="./CSS/animation.css"
+ 	</head>
 	
 	
 	<body>
-
-		<style>
-		.font_1{
-			background-color:darkblue;
-		}
-		
-		</style>
 	   <!-- nav -->
 	   
 	   
-	   <div>
-		
-			<div>
-				<link rel="stylesheet" type ="text/css" href="home.css">
-				<ul>
+	   <div class="wrap">
+
+			<div class="menu-container">
+				
+				<ul class="menu">
 					<a href = "#home" id="link"><li> &nbsp;Home |</li></a>
 					<a href ="#gallery" id = "link"><li>  &nbsp;Gallery |</li></a>
 					<a href = "#contact" id = "link" ><li>  &nbsp;Reservations</li></a><br>
@@ -38,10 +33,10 @@
 		
 		
 		<div id = "home">
-			<div style="background-image:url('.\images\tumbnails\thumbnail_10.jpg');">
+			<div class="container">
 				
-				<div style="text-align:center;text-shadow: 2px 2px black">
-						<h1 class= "font_1"><span style="color:purple;font-weight:bold">Travel Agency</span></h1>
+				<div class="text-center">
+						<span class="head-main">Travel Agency</span>
 					</div>
 			</div>
 		</div>
@@ -49,18 +44,18 @@
 		
 		
 		<!-- Gallery -->
-		<section>
-			<div id = "gallery" > 	
-				<h1 style="text-align:center;text-shadow: 2px 2px black"><span style="color:Purple;fontweight:bold">Gallery</span></h1>
-				<div>
+		<section id = "gallery">
+			<div class="container"> 	
+				<h1 >Gallery</h1>
+				<div class="flex-container">
 								
 					<!-- Photo container 1 -->
 				
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src = ".\images\tumbnails\thumbnail_1.jpg" alt = "this image is not supported">
-							<div>
-								<h3> Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head"> Click to Enlarge</h3>
 								<p>Would you like a travel to Italy, Rome:<br>
 									"The Eternal City"?</p>
 							</div>
@@ -72,13 +67,13 @@
 					
 					<!-- Photo container  2 -->
 				
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src = ".\images\tumbnails\thumbnail_2.jpg" alt = "this image is not supported">
-							<div>
-								<h3> Click to Enlarge</h3>
-								<p>Would you like ti visit the city of Spain, Barcelona.<br>
-									Known for their stunning architecture and obviosly outstanding football team?</p>
+							<div class="photo-overlay">
+								<h3 class="white-head"> Click to Enlarge</h3>
+								<p>Would you like a travel to Italy, Rome:<br>
+									"The Eternal City"?</p>
 							</div>
 						</div>
 					</div>
@@ -88,13 +83,13 @@
 					
 					<!-- Photo container 3 -->
 				
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src = ".\images\tumbnails\thumbnail_3.jpg" alt = "this image is not supported">
-							<div>
-								<h3> Click to Enlarge</h3>
-								<p>Woukd you like to spend a great vacation at Brazil, Rio de Janeiro:<br>
-									known for their carnivals and moving music ?</p>
+							<div class="photo-overlay">
+								<h3 class="white-head"> Click to Enlarge</h3>
+								<p>Would you like a travel to Italy, Rome:<br>
+									"The Eternal City"?</p>
 							</div>
 						</div>
 					</div>
@@ -103,14 +98,13 @@
 					
 					
 					<!-- Photo container  4 -->
-				
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src = ".\images\tumbnails\thumbnail_4.jpg" alt = "this image is not supported">
-							<div>
-								<h3> Click to Enlarge</h3>
-								<p>Would yo like to visit the city of love and fashion:<br>
-									Paris, France?</p>
+							<div class="photo-overlay">
+								<h3 class="white-head"> Click to Enlarge</h3>
+								<p>Would you like a travel to Italy, Rome:<br>
+									"The Eternal City"?</p>
 							</div>
 						</div>
 					</div>
@@ -119,13 +113,13 @@
 					
 					<!-- Photo container 5 -->
 				
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src = ".\images\tumbnails\thumbnail_5.jpg" alt = "this image is not supported">
-							<div>
-								<h3> Click to Enlarge</h3>
-								<p>Would you prefer to go for an ancient travel to china, Guilin:<br>
-									known for the beautiful landscape and montains?</p>
+							<div class="photo-overlay">
+								<h3 class="white-head"> Click to Enlarge</h3>
+								<p>Would you like a travel to Italy, Rome:<br>
+									"The Eternal City"?</p>
 							</div>
 						</div>
 					</div>
@@ -133,14 +127,13 @@
 					<!-- End photo container 5 -->
 					
 					<!-- Photo container 6 -->
-				
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src = ".\images\tumbnails\thumbnail_6.jpg" alt = "this image is not supported">
-							<div>
-								<h3> Click to Enlarge</h3>
-								<p>Would you to merge with the cultural landmarks and historical sites of:<br>
-									Kyoto, Japan: "The heart of Japan"?</p>
+							<div class="photo-overlay">
+								<h3 class="white-head"> Click to Enlarge</h3>
+								<p>Would you like a travel to Italy, Rome:<br>
+									"The Eternal City"?</p>
 							</div>
 						</div>
 					</div>
@@ -149,13 +142,13 @@
 					
 					<!-- Photo container 7 -->
 				
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src = ".\images\tumbnails\thumbnail_7.jpg" alt = "this image is not supported">
-							<div>
-								<h3> Click to Enlarge</h3>
-								<p>Would you like to summerge in an aventurous life on and under water of:<br>
-									Maldives Islands?</p>
+							<div class="photo-overlay">
+								<h3 class="white-head"> Click to Enlarge</h3>
+								<p>Would you like a travel to Italy, Rome:<br>
+									"The Eternal City"?</p>
 							</div>
 						</div>
 					</div>
@@ -164,28 +157,27 @@
 					
 					<!-- Photo container 8 -->
 				
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src = ".\images\tumbnails\thumbnail_8.jpg" alt = "this image is not supported">
-							<div>
-								<h3> Click to Enlarge</h3>
-								<p>Would you prefer to presence the elegance of:
-									Niagara Falls, Canada?</p>
+							<div class="photo-overlay">
+								<h3 class="white-head"> Click to Enlarge</h3>
+								<p>Would you like a travel to Italy, Rome:<br>
+									"The Eternal City"?</p>
 							</div>
 						</div>
 					</div>
-				
 					<!-- End photo container  8 -->
 					
 					<!-- Photo container 9 -->
 				
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src = ".\images\tumbnails\thumbnail_9.jpg" alt = "this image is not supported">
-							<div>
-								<h3> Click to Enlarge</h3>
-								<p>Or would you be more intrested in a tropical experience on:
-									Cancun, Mexico?</p>
+							<div class="photo-overlay">
+								<h3 class="white-head"> Click to Enlarge</h3>
+								<p>Would you like a travel to Italy, Rome:<br>
+									"The Eternal City"?</p>
 							</div>
 						</div>
 					</div>
@@ -199,11 +191,11 @@
 		</section>
 		
 		
-		<section>
+		<section >
 			
-			<h1 style= "text-shadow: 2px 2px black; text-align:center"><span style = "color:purple">Videos</span></h1>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/UtF6Jej8yb4" title="YouTube video player" 
-			frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<h1 >Videos</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/UtF6Jej8yb4" >
+			</iframe>
 		</section>
 		
 		<!--End Gallery-->
@@ -213,20 +205,20 @@
 		
 		
 		<!--RSVP -->
-		<section>
+		<section id = "contact">
 		
-			<div id = "contact">
-				<div>
-					<h1> Reservations</h1>
-					<div>
-						<h2><span>Your next stop is just about to fly!!!1</span>
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding"> Reservations</h1>
+					<div class="reservation">
+						<h2><span>Your next stop is just about to fly!!!</span>
 							<br />Reserve your flight today!!
 						</h2>
 						
-						<p>
+						<p class="rsvp-text">
 							Please provide us with your basic information.
 						</p>
-						<div>
+						<div class="form-rsvp"> 
 							<form action = "" method = "post">
 								<input class="rsvp" type= "text" value="First Name">
 								<input class="rsvp" type= "text" value="Last Name">
@@ -235,7 +227,7 @@
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type= "submit" value = "Submit">
 								</div>
 								
@@ -250,7 +242,7 @@
 		
 		
 		<!-- footer -->
-		<footer>
+		<footer id="footer">
 			<div>
 				www.travelagency.fly  &nbsp;|&nbsp; &copy; 2016
 			</div>
