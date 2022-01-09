@@ -1,4 +1,6 @@
 
+
+
 .wrap{
     top: 0;
     left: 0;
@@ -68,7 +70,7 @@
 }
 
 .submenu li:hover {
-    background-color:rgba(100,65,0,.3)
+    background-color:rgba(100,65,0,.3);
     color: #fff;
 
 }
@@ -263,7 +265,7 @@ h1{
 }
 
 .submit input[type="submit"] {
-    color: #fff
+    color: #fff;
     cursor: pointer;
     border: none;
     font-weight: 900;
